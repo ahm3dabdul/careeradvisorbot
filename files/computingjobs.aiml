@@ -44,16 +44,6 @@
                     </button>
                 </card>
                 <card>
-                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Programmers.jpg/330px-Programmers.jpg</image>
-                    <title>Cyber Security</title>
-                    <subtitle>Annual salary average: $78k</subtitle>
-                    <button>
-                        <text>Learn more</text>
-                        <url>https://en.wikipedia.org/wiki/Computer_security</url>
-                    </button>
-                </card>
-         
-                <card>
                     <image>https://upload.wikimedia.org/wikipedia/commons/6/6f/Fotothek_df_n-10_0000109.jpg</image>
                     <title>Database Administration</title>
                     <subtitle>Annual salary average: $79k</subtitle>

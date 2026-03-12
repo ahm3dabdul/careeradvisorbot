@@ -55,4 +55,12 @@
             </carousel>
             </template>
 	</category>
+	
+	<category>
+	    <pattern>^ No ^</pattern>
+	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
+	    <template>
+	        That is ok, <get name="username"/>. Remember, we are always here to help whenever you need career guidance. See you next time!
+	    </template><get name="username"/>
+	</category>
 </aiml>

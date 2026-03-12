@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">tingjobs
+
+	<!-- insert your AIML categories here -->
+		<category>
+	    <pattern>Hi</pattern>
+	    <template>Hi, welcome! What is your name?</template>
+	</category>
+	<category>
+	    <pattern>My name is *</pattern>
+	    <that> WHAT IS YOUR NAME</that>
+	    <template>Nice to meet you, <set name="username"><star /></set>. Are you here to see what jobs you qualify for today?</template>
+	</category>
+	
+</aiml>

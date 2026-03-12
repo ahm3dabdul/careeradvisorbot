@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>^ Yes ^</pattern>
+	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
+	    <template><get name="username"/>, 
+	    below are some jobs that are in high demand and you qualify for to apply. Use the arrows to navigate.
+	    <carousel>
+	            <card>
+	                <image>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coding_Shots_Annual_Plan_high_res-5.jpg/960px-Coding_Shots_Annual_Plan_high_res-5.jpg</image>
+	                <title>Software Developer</title>
+	                <subtitle>Annual salary average: $120k</subtitle>
+	                <button>
+	                    <text>Learn more</text>
+	                    <url>https://en.wikipedia.org/wiki/Software_development</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Karvachar_Armath_Lab_at_work.jpg/960px-Karvachar_Armath_Lab_at_work.jpg</image>
+                    <title>Front-End Developer</title>
+                    <subtitle>Annual salary average: $105k</subtitle>
+                    <button>
+                        <text>Learn more</text>
+                        <url>https://en.wikipedia.org/wiki/Front-end_web_development</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Showing_off_at_Dorkbot_%28542721680%29.jpg/960px-Showing_off_at_Dorkbot_%28542721680%29.jpg</image>
+                    <title>Back-End Developer</title>
+                    <subtitle>Annual salary average: $77k</subtitle>
+                    <button>
+                        <text>Learn more</text>
+                        <url>https://en.wikipedia.org/wiki/Front_end_and_back_end</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Programmer_writing_code_with_Unit_Tests.jpg/960px-Programmer_writing_code_with_Unit_Tests.jpg</image>
+                    <title>Full Stack Developer</title>
+                    <subtitle>Annual salary average: $77k</subtitle>
+                    <button>
+                        <text>Learn more</text>
+                        <url>https://en.wikipedia.org/wiki/Solution_stack#Full-stack_developer</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Programmers.jpg/330px-Programmers.jpg</image>
+                    <title>Cyber Security</title>
+                    <subtitle>Annual salary average: $78k</subtitle>
+                    <button>
+                        <text>Learn more</text>
+                        <url>https://en.wikipedia.org/wiki/Computer_security</url>
+                    </button>
+                </card>
+         
+                <card>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/6/6f/Fotothek_df_n-10_0000109.jpg</image>
+                    <title>Database Administration</title>
+                    <subtitle>Annual salary average: $79k</subtitle>
+                    <button>
+                        <text>Learn more</text>
+                        <url>https://en.wikipedia.org/wiki/Database_administrator</url>
+                    </button>
+                </card>
+            </carousel>
+            </template>
+	</category>
+</aiml>

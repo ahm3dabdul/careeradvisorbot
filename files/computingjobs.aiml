@@ -7,7 +7,7 @@
 	<category>
 	    <pattern>WEB</pattern>
 	    <template>
-	        These jobs would be good fit for you
+	        These jobs would be good fit for you!
 	        <carousel>
 	            <card>
                     <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Karvachar_Armath_Lab_at_work.jpg/960px-Karvachar_Armath_Lab_at_work.jpg</image>
@@ -44,7 +44,7 @@
 	<category>
 	    <pattern>SOFTWARE</pattern>
 	    <template>
-	        These jobs would be a good fit for you.
+	        This job would be a good fit for you!
 	        <carousel>
 	            <card>
 	                <image>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coding_Shots_Annual_Plan_high_res-5.jpg/960px-Coding_Shots_Annual_Plan_high_res-5.jpg</image>
@@ -62,7 +62,7 @@
 	<category>
 	    <pattern>DATA</pattern>
 	    <template>
-	        This job could be a great fit for you.
+	        This job could be a great fit for you!
 	        <carousel>
     	        <card>
                         <image>https://upload.wikimedia.org/wikipedia/commons/6/6f/Fotothek_df_n-10_0000109.jpg</image>

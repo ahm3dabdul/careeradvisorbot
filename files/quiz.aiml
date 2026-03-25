@@ -5,7 +5,7 @@
 	    <pattern>Quiz</pattern>
 	    <template>
 	        
-	        Do you like developing websites and web applications <break/>
+	        Do you like developing websites and web applications? <break/>
 	        
 	        <button>Yes
 	            <text>Yes</text>

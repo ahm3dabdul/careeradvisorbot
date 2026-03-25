@@ -11,5 +11,25 @@
 	    <that> WHAT IS YOUR NAME</that>
 	    <template>Nice to meet you, <set name="username"><star /></set>. Are you here to see what jobs you qualify for today?</template>
 	</category>
+	<category>
+	        <pattern>^ Yes ^</pattern>
+    	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
+    	    <template><get name="username"/>, 
+    	    Try to this quiz so that you will be matched with a job that would be a great fit for you.
+    	    <button>
+    	        <text>Quiz</text>
+    	        <postback>Quiz</postback>
+    	    </button>
+    	    
+	    </template>
+	</category>
+	
+		<category>
+	    <pattern>^ No ^</pattern>
+	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
+	    <template>
+	        That is ok, <get name="username"/>. Remember, we are always here to help whenever you need career guidance. See you next time!
+	    </template><get name="username"/>
+	</category>
 	
 </aiml>

@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+
+	
+	<!--Web Development jobs-->
 	<category>
-	    <pattern>^ Yes ^</pattern>
-	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
-	    <template><get name="username"/>, 
-	    below are some jobs that are in high demand and you qualify for to apply. Use the arrows to navigate.
-	    <carousel>
+	    <pattern>WEB</pattern>
+	    <template>
+	        These jobs would be good fit for you
+	        <carousel>
 	            <card>
-	                <image>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coding_Shots_Annual_Plan_high_res-5.jpg/960px-Coding_Shots_Annual_Plan_high_res-5.jpg</image>
-	                <title>Software Developer</title>
-	                <subtitle>Annual salary average: $120k</subtitle>
-	                <button>
-	                    <text>Learn more</text>
-	                    <url>https://en.wikipedia.org/wiki/Software_development</url>
-                    </button>
-                </card>
-                <card>
                     <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Karvachar_Armath_Lab_at_work.jpg/960px-Karvachar_Armath_Lab_at_work.jpg</image>
                     <title>Front-End Developer</title>
                     <subtitle>Annual salary average: $105k</subtitle>
@@ -43,24 +36,45 @@
                         <url>https://en.wikipedia.org/wiki/Solution_stack#Full-stack_developer</url>
                     </button>
                 </card>
-                <card>
-                    <image>https://upload.wikimedia.org/wikipedia/commons/6/6f/Fotothek_df_n-10_0000109.jpg</image>
-                    <title>Database Administration</title>
-                    <subtitle>Annual salary average: $79k</subtitle>
-                    <button>
-                        <text>Learn more</text>
-                        <url>https://en.wikipedia.org/wiki/Database_administrator</url>
+	        </carousel>
+	    </template>
+	</category>
+	
+	<!--Non-Web Development jobs-->
+	<category>
+	    <pattern>SOFTWARE</pattern>
+	    <template>
+	        These jobs would be a good fit for you.
+	        <carousel>
+	            <card>
+	                <image>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coding_Shots_Annual_Plan_high_res-5.jpg/960px-Coding_Shots_Annual_Plan_high_res-5.jpg</image>
+	                <title>Software Developer</title>
+	                <subtitle>Annual salary average: $120k</subtitle>
+	                <button>
+	                    <text>Learn more</text>
+	                    <url>https://en.wikipedia.org/wiki/Software_development</url>
                     </button>
                 </card>
             </carousel>
-            </template>
+	    </template>
 	</category>
 	
 	<category>
-	    <pattern>^ No ^</pattern>
-	    <that>ARE YOU HERE TO SEE WHAT JOBS YOU QUALIFY FOR TODAY</that>
+	    <pattern>DATA</pattern>
 	    <template>
-	        That is ok, <get name="username"/>. Remember, we are always here to help whenever you need career guidance. See you next time!
-	    </template><get name="username"/>
+	        This job could be a great fit for you.
+	        <carousel>
+    	        <card>
+                        <image>https://upload.wikimedia.org/wikipedia/commons/6/6f/Fotothek_df_n-10_0000109.jpg</image>
+                        <title>Database Administration</title>
+                        <subtitle>Annual salary average: $79k</subtitle>
+                        <button>
+                            <text>Learn more</text>
+                            
+                            <url>https://en.wikipedia.org/wiki/Database_administrator</url>
+                        </button>
+                    </card>
+            </carousel>
+	    </template>
 	</category>
 </aiml>

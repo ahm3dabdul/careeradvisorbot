@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Quiz</pattern>
+	    <template>
+	        
+	        Do you like developing websites and web applications <break/>
+	        
+	        <button>Yes
+	            <text>Yes</text>
+	            <postback>WEB</postback>
+	        </button>
+	        
+	        
+	        <button>
+	            <text>No</text>
+	            <postback>NONWEB</postback>
+	       </button>
+	        
+	    </template>
+	</category>
+
+	<category>
+	    <pattern>NONWEB</pattern>
+	    <template>
+	        Would you rather rather develop software or work with data?
+	        <button>
+	            
+	            <text>Software</text>
+	             <postback>SOFTWARE</postback>
+	       </button>
+	       
+	        
+	        <button>
+	            
+	            <text>Data</text>
+	            <postback>DATA</postback>
+	       </button>
+	        
+	    </template>
+	</category>
+	
+	
+</aiml>

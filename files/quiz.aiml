@@ -24,7 +24,7 @@
 	<category>
 	    <pattern>NONWEB</pattern>
 	    <template>
-	        Would you rather rather develop software or work with data?
+	        Would you rather develop software or work with data?
 	        <button>
 	            
 	            <text>Software</text>
